@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+	<head>
+
+		<title>Cats and Names</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+
+	</head>
+
+	<body>
+		<header class="topHeader">
+			<a href="#top" class="removeUnderline"><h1 class ="siteTitle">Getting Cats and Names</h1></a>
+			<nav>
+				<ul>
+					<li><a href="#photos">Photos</a></li>
+					<li><a href="#selectedPhotos">Selected Photo</a></li>
+					<li><a href="#getName">Random Names</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<p class="mainText">
+			Here are some ideas about different Bengal cats and what they look like. 
+			You can choose from the cats below and then go for a <a href="#getName" class="normalA">random name</a>!
+		</p>
+
+		<div class="container" id="photos"></div>
+
+
+		<div class="userArea">
+
+    		<div class="photoSection">
+        		<h3 class="selectPhoto">Selected Photo:</h3>
+        		<div id="selectedPhotos" class="selectedContainer">
+            		<div class="emptyBox"></div>
+        		</div>
+    		</div>
+
+    		<div class="nameSection">
+        		<h3 class="nameIdeaText">Here are some name ideas for your pet!</h3>
+
+        		<button class="getName" id="getName">Get a random name</button>
+        		<h2 class="displayName">_________</h2>
+    		</div>
+			
+		</div>
+
+		<footer>
+			<a href="#top" class="normalA">Back to top</a>
+		</footer>
+
+
+		<script src="script.js"></script>
+
+	</body>
+
+
+</html>
